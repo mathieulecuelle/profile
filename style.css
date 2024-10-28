@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100..900&display=swap');
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+.container {
+  font-family: "Noto Sans HK", sans-serif;
+  text-align: center;
+}
+
+.card {
+  background: whitesmoke;                     /* White background */
+  width: 450px;
+  padding: 30px;                             /* Internal space */
+  margin: 30px auto;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+  color: #8d9296;
+  line-height: 100%;
+  font-size:15px;
+}
+
+img {
+  border-radius: 20%;
+}
+
+#profile-pic {
+  width: 150px;
+  height: auto;
+
+}
+
+h1 {
+  color:#a93226;
+  font-size:25px;
+  line-height: 150%;
+}
+
+h2 {
+  color:#f5b7b1;
+  font-size:20px;
+  line-height: 150%;
+}
+
+th, td {
+  text-align: center; /* Centre le texte horizontalement */
+  vertical-align: middle; /* Centre le texte verticalement */
+}
+
+.btn-orange{
+  background-color: #e06915 ;
+  border-radius:10px;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn-orange:hover {
+  background-color: #5c5857;
+  text-decoration: none;
+}
